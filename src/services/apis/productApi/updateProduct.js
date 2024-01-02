@@ -23,13 +23,3 @@ const updateProduct = async (record) => {
 
 export default updateProduct;
 
-// CategoryID: 3;
-// Description: "sweet and cool";
-// Price: 5.5;
-// ProductID: 4;
-// ProductName: "ice-cream";
-// QuantityInStock: 100;
-// SupplierID: 1;
-
-const FULL_API = 'https://localhost:7036'
-axios.get(`${FULL_API}/api/todo/getnotes`)
